@@ -88,17 +88,17 @@ const Contact = () => {
         <div className="info-map">
            Nakka Venkata Satya Lokesh
           <br />
-          India,
+        
           <br />
           T.Nagar,Rajamahendravaram,533101 <br />
-          AndhraPradesh <br />
+          AndhraPradesh,India<br />
           <br />
           <span>venkatlokesh79957@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
+            <Marker position={[17.0005, 81.8040]}>
               <Popup>Lokesh lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
