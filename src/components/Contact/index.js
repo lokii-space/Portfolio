@@ -86,20 +86,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Kondra Nagabhavani
+           Nakka Venkata Satya Lokesh
           <br />
           India,
           <br />
-          Tuni,Kakinada,533401 <br />
+          T.Nagar,Rajamahendravaram,533101 <br />
           AndhraPradesh <br />
           <br />
-          <span>bhavanikondra01@gmail.com</span>
+          <span>venkatlokesh79957@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>
-              <Popup>Bhavani lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Lokesh lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
